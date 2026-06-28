@@ -1,0 +1,37 @@
+{
+  "name": "research-logic-map",
+  "version": "1.0.0",
+  "description": "Generate Chinese Mermaid research logic diagrams from user input and render them to SVG and PNG.",
+  "author": {
+    "name": "gjz1023984937-dev",
+    "url": "https://github.com/gjz1023984937-dev"
+  },
+  "homepage": "https://github.com/gjz1023984937-dev/research-logic-map-skill",
+  "repository": "https://github.com/gjz1023984937-dev/research-logic-map-skill",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "mermaid",
+    "logic-map",
+    "chinese",
+    "diagram"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research Logic Map",
+    "shortDescription": "Generate Chinese Mermaid logic maps with PNG and SVG outputs.",
+    "longDescription": "Research Logic Map turns research notes, thesis ideas, advisor discussions, or project prompts into Chinese Mermaid flowcharts, then renders the result as SVG and PNG files for reports and presentations.",
+    "developerName": "gjz1023984937-dev",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/gjz1023984937-dev/research-logic-map-skill",
+    "defaultPrompt": [
+      "根据我的研究想法生成中文 Mermaid 逻辑图",
+      "读取 chat.md 并输出研究逻辑图 PNG 和 SVG",
+      "把导师沟通记录整理成研究路线图"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

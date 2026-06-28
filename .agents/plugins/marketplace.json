@@ -1,7 +1,7 @@
 {
-  "name": "personal",
+  "name": "research-logic-map-skill",
   "interface": {
-    "displayName": "Personal"
+    "displayName": "Research Logic Map Skill"
   },
   "plugins": [
     {
